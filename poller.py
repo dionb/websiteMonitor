@@ -66,7 +66,7 @@ try:
                                "status": result.status_code,
                                "time": time.time()
                                }).encode('utf-8')
-        # producer.send(topic, jsonbytes)
+        producer.send(topic, jsonbytes)
 except Exception as e:
     print(e)
 finally:
