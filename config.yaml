@@ -1,0 +1,17 @@
+kafka:
+  url: localhost:9092
+  topic: test
+postgres:
+  host: localhost
+  port: 5432
+  database: test
+  table: test
+  user: postgres
+  password: postgres
+websites:
+  - example.com example
+  - xkcd.com someNonsense
+  - google.com
+  - hopefullyDoesntExist.notAURL
+  - http://example.com
+  - https://example.com
